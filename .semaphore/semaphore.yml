@@ -29,4 +29,5 @@ blocks:
       jobs:
         - name: Integration Test
           commands:
+            - npm install ts-node
             - docker-compose run addressbook npm test
